@@ -33,4 +33,9 @@ public class VehicleController {
     public Vehicle addVehicle(@RequestBody Vehicle vehicle) {
         return vehicleRepository.save(vehicle);
     }
+    @GetMapping("/ping")
+public String test() {
+    return "Controller is active!";
+}
+
 }
