@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vehiclePro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="/images/logo.jpg" alt="VehiclePro Logo">
+            VEHICLE PRO
+        </div>
+        <nav class="nav">
+            <a href="#home">HOME</a>
+            <a href="#cars">CARS</a>
+            <a href="#feedback">FEEDBACK</a>
+        </nav>
+        <div class="header-right">
+            <button class="login-btn">LOGIN</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>START YOUR JOURNEY WITH<br><span>STYLE!</span></h1>
+            <p>Discover our premium selection of vehicles with flexible rental options</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">BROWSE CARS</button>
+                <button class="btn btn-secondary">SIGN UP</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular-section">
+        <h2>OUR MOST POPULAR RENTALS</h2>
+        
+        <div class="cars-grid">
+            <div class="car-card">
+                <div class="availability-badge">Available</div>
+                <div class="car-image">
+                    <img src="/images/BMW X5 30D.jpeg" alt="BMW X5">
+                </div>
+                <div class="car-details">
+                    <h3 class="car-name">BMW X5</h3>
+                    <div class="car-specs">
+                        <span>👥 7 seats</span>
+                        <span>🚗 SUV</span>
+                    </div>
+                    <div class="rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-number">4.8</span>
+                    </div>
+                    <div class="price">$120 / DAY</div>
+                    <button class="view-details-btn">VIEW DETAILS</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="availability-badge">Available</div>
+                <div class="car-image">
+                    <img src="/images/whitecar.jpeg" alt="Mercedes C Class">
+                </div>
+                <div class="car-details">
+                    <h3 class="car-name">MERCEDES C CLASS</h3>
+                    <div class="car-specs">
+                        <span>👥 5 seats</span>
+                        <span>🚗 SEDAN</span>
+                    </div>
+                    <div class="rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-number">4.7</span>
+                    </div>
+                    <div class="price">$95 / DAY</div>
+                    <button class="view-details-btn">VIEW DETAILS</button>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="availability-badge">Available</div>
+                <div class="car-image">
+                    <img src="https://i.pinimg.com/736x/71/43/53/71435345dc6c7c8e54fcea81fa757a49.jpg" alt="Tesla Model 3">
+                </div>
+                <div class="car-details">
+                    <h3 class="car-name">TESLA MODEL 3</h3>
+                    <div class="car-specs">
+                        <span>👥 5 seats</span>
+                        <span>⚡ ELECTRIC</span>
+                    </div>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-number">4.9</span>
+                    </div>
+                    <div class="price">$85 / DAY</div>
+                    <button class="view-details-btn">VIEW DETAILS</button>
+                </div>
+            </div>
+        </div>
+
+        <button class="view-all-btn">VIEW ALL CARS</button>
+    </section>
+
+    <section class="search-section">
+        <img src="/images/garage.jpg" alt="Garage Background" class="garage-background">
+        
+        <div class="search-container">
+            <div class="search-content">
+                <h2 class="search-title">FIND YOUR PERFECT CAR</h2>
+                
+                <form class="search-form">
+                    <div class="form-group">
+                        <label class="form-label">MAKE</label>
+                        <div class="dropdown">
+                            <select class="dropdown-select">
+                                <option value="">Any</option>
+                                <option value="bmw">BMW</option>
+                                <option value="mercedes">Mercedes</option>
+                                <option value="audi">Audi</option>
+                                <option value="tesla">Tesla</option>
+                                <option value="lexus">Lexus</option>
+                                <option value="porsche">Porsche</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">MODEL</label>
+                        <div class="dropdown">
+                            <select class="dropdown-select">
+                                <option value="">Any</option>
+                                <option value="sedan">Sedan</option>
+                                <option value="suv">SUV</option>
+                                <option value="coupe">Coupe</option>
+                                <option value="convertible">Convertible</option>
+                                <option value="hatchback">Hatchback</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">SIZE</label>
+                        <div class="dropdown">
+                            <select class="dropdown-select">
+                                <option value="">Any</option>
+                                <option value="compact">Compact</option>
+                                <option value="midsize">Midsize</option>
+                                <option value="fullsize">Full Size</option>
+                                <option value="luxury">Luxury</option>
+                                <option value="suv">SUV</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">PICKUP DATE</label>
+                        <input type="date" class="date-input" placeholder="Select Date">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">RETURN DATE</label>
+                        <input type="date" class="date-input" placeholder="Select Date">
+                    </div>
+
+                    <div class="form-group price-range">
+                        <label class="form-label">PRICE RANGE</label>
+                        <div class="price-slider-container">
+                            <span class="price-value">$50</span>
+                            <input type="range" class="price-slider" min="50" max="500" value="50" id="minPrice">
+                            <input type="range" class="price-slider" min="50" max="500" value="250" id="maxPrice">
+                            <span class="price-value">$250</span>
+                        </div>
+                    </div>
+                </form>
+
+                <button class="search-btn">SEARCH AVAILABLE CARS →</button>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
