@@ -1,0 +1,66 @@
+2025-07-07 16:19:44.954498+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+select v1_0.id,v1_0.available,v1_0.make,v1_0.model,v1_0.plate_number,v1_0.size from vehicles v1_0 where v1_0.available [42102-232]
+2025-07-07 16:21:39.115097+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+select v1_0.id,v1_0.available,v1_0.make,v1_0.model,v1_0.plate_number,v1_0.size from vehicles v1_0 where v1_0.available [42102-232]
+2025-07-07 16:22:03.802218+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+select v1_0.id,v1_0.available,v1_0.make,v1_0.model,v1_0.plate_number,v1_0.size from vehicles v1_0 where v1_0.available [42102-232]
+2025-07-07 16:23:44.360088+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+select v1_0.id,v1_0.available,v1_0.make,v1_0.model,v1_0.plate_number,v1_0.size from vehicles v1_0 where v1_0.available [42102-232]
+2025-07-07 16:31:47.792654+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+select v1_0.id,v1_0.available,v1_0.make,v1_0.model,v1_0.plate_number,v1_0.size from vehicles v1_0 where v1_0.available [42102-232]
+2025-07-07 16:55:27.570304+03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+select v1_0.id,v1_0.available,v1_0.make,v1_0.model,v1_0.plate_number,v1_0.size from vehicles v1_0 where v1_0.available [42102-232]
+2025-07-07 16:55:28.443603+03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+select v1_0.id,v1_0.available,v1_0.make,v1_0.model,v1_0.plate_number,v1_0.size from vehicles v1_0 where v1_0.available [42102-232]
+2025-07-07 16:55:28.608958+03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+select v1_0.id,v1_0.available,v1_0.make,v1_0.model,v1_0.plate_number,v1_0.size from vehicles v1_0 where v1_0.available [42102-232]
+2025-07-07 16:55:28.765847+03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+select v1_0.id,v1_0.available,v1_0.make,v1_0.model,v1_0.plate_number,v1_0.size from vehicles v1_0 where v1_0.available [42102-232]
+2025-07-07 16:55:28.923417+03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+select v1_0.id,v1_0.available,v1_0.make,v1_0.model,v1_0.plate_number,v1_0.size from vehicles v1_0 where v1_0.available [42102-232]
+2025-07-07 16:55:29.091523+03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+select v1_0.id,v1_0.available,v1_0.make,v1_0.model,v1_0.plate_number,v1_0.size from vehicles v1_0 where v1_0.available [42102-232]
+2025-07-07 16:55:29.230552+03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+select v1_0.id,v1_0.available,v1_0.make,v1_0.model,v1_0.plate_number,v1_0.size from vehicles v1_0 where v1_0.available [42102-232]
+2025-07-07 16:55:29.456829+03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+select v1_0.id,v1_0.available,v1_0.make,v1_0.model,v1_0.plate_number,v1_0.size from vehicles v1_0 where v1_0.available [42102-232]
+2025-07-07 16:55:58.330484+03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+select v1_0.id,v1_0.available,v1_0.make,v1_0.model,v1_0.plate_number,v1_0.size from vehicles v1_0 where v1_0.available [42102-232]
+2025-07-07 16:57:38.458067+03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+select v1_0.id,v1_0.available,v1_0.make,v1_0.model,v1_0.plate_number,v1_0.size from vehicles v1_0 where v1_0.available [42102-232]
+2025-07-07 16:57:43.206831+03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+select v1_0.id,v1_0.available,v1_0.make,v1_0.model,v1_0.plate_number,v1_0.size from vehicles v1_0 where v1_0.available [42102-232]
+2025-07-07 17:15:55.136319+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLE" already exists; SQL statement:
+CREATE TABLE vehicle ( id BIGINT AUTO_INCREMENT PRIMARY KEY, make VARCHAR(255), model VARCHAR(255), plate_number VARCHAR(255), available BOOLEAN ) [42101-232]
+2025-07-07 17:17:02.113687+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLE" already exists; SQL statement:
+CREATE TABLE vehicle ( id BIGINT AUTO_INCREMENT PRIMARY KEY, make VARCHAR(255), model VARCHAR(255), plate_number VARCHAR(255), available BOOLEAN ) [42101-232]
+2025-07-07 17:24:45.888458+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLE" already exists; SQL statement:
+CREATE TABLE vehicle ( id BIGINT AUTO_INCREMENT PRIMARY KEY, make VARCHAR(255), model VARCHAR(255), plate_number VARCHAR(255), available BOOLEAN ) [42101-232]
+2025-07-07 18:05:58.008774+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+select v1_0.id,v1_0.available,v1_0.make,v1_0.model,v1_0.plate_number,v1_0.size from vehicles v1_0 where v1_0.available [42102-232]
+2025-07-07 18:06:11.731869+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+DROP TABLE vehicles [42102-232]
+2025-07-07 18:06:38.393029+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEHICLES" not found; SQL statement:
+select v1_0.id,v1_0.available,v1_0.make,v1_0.model,v1_0.plate_number,v1_0.size from vehicles v1_0 where v1_0.available [42102-232]
