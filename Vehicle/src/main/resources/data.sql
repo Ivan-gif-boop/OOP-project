@@ -1,0 +1,15 @@
+INSERT INTO vehicle (make, model,  plate_number, available) VALUES ('Toyota', 'Corolla', 'KDA123A', true);
+INSERT INTO vehicle (make, model,  plate_number, available) VALUES ('Honda', 'Civic',  'KDC456B', true);
+INSERT INTO vehicle (make, model,  plate_number, available) VALUES ('Nissan', 'Altima',  'KDE789C', true);
+INSERT INTO vehicle (make, model,  plate_number, available) VALUES ('Mazda', 'Demio',  'KDF111D', true);
+INSERT INTO vehicle (make, model,  plate_number, available) VALUES ('Subaru', 'Forester', 'KDG222E', true);
+INSERT INTO vehicle (make, model,  plate_number, available) VALUES ('BMW', 'X5',  'KDH333F', true);
+INSERT INTO vehicle (make, model,  plate_number, available) VALUES ('Mercedes', 'C200',  'KDI444G', true);
+INSERT INTO vehicle (make, model,  plate_number, available) VALUES ('Audi', 'A4', 'KDJ555H', true);
+INSERT INTO vehicle (make, model,  plate_number, available) VALUES ('Volkswagen', 'Passat',  'KDK666J', true);
+INSERT INTO vehicle (make, model,  plate_number, available) VALUES ('Ford', 'Ranger',  'KDL777K', true);
+INSERT INTO vehicle (make, model,  plate_number, available) VALUES ('Chevrolet', 'Spark', 'KDM888L', true);
+INSERT INTO vehicle (make, model,  plate_number, available) VALUES ('Hyundai', 'Tucson',  'KDN999M', true);
+INSERT INTO vehicle (make, model,  plate_number, available) VALUES ('Kia', 'Sportage',  'KDP101N', true);
+INSERT INTO vehicle (make, model,  plate_number, available) VALUES ('Mitsubishi', 'Outlander', 'KDV707U', true);
+INSERT INTO vehicle (make, model,  plate_number, available) VALUES ('Isuzu', 'D-Max', 'KDW808V', true);

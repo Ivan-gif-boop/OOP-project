@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Available Vehicles</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f6fa;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .vehicles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .vehicle-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 16px;
+      transition: 0.3s;
+    }
+
+    .vehicle-card:hover {
+      transform: scale(1.02);
+    }
+
+    .vehicle-card img {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+      height: 160px;
+    }
+
+    .vehicle-details {
+      padding-top: 10px;
+    }
+
+    .vehicle-details strong {
+      color: #2d3436;
+    }
+
+    .available {
+      color: green;
+      font-weight: bold;
+    }
+
+    .unavailable {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Available Vehicles</h1>
+  <div class="vehicles-grid" id="vehicles"></div>
+
+ <script>
+  const vehicleImages = {
+    "Toyota Corolla": "toyota_corolla.jpg",
+    "Honda Civic": "honda_civic.jpg",
+    "Nissan Altima": "nissan_altima.jpg",
+    "Mazda Demio": "mazda_demio.jpg",
+    "Subaru Forester": "subaru_forester.jpg",
+    "BMW X5": "bmw_x5.jpg",
+    "Mercedes C200": "mercedes_c200.jpg",
+    "Audi A4": "audi_a4.jpg",
+    "Volkswagen Passat": "volkswagen_passat.jpg",
+    "Ford Ranger": "ford_ranger.jpg",
+    "Chevrolet Spark": "chevrolet_spark.jpg",
+    "Hyundai Tucson": "hyundai_tucson.jpg",
+    "Kia Sportage": "kia_sportage.jpg",
+    "Isuzu D-Max": "isuzu_dmax.jpg",
+    "Mitsubishi Outlander": "mitsubishi_outlander.jpg"
+  };
+
+  fetch('/api/vehicles/available')
+    .then(response => response.json())
+    .then(data => {
+      const container = document.getElementById('vehicles');
+      container.innerHTML = ''; // Clear before rendering
+
+      data.forEach(vehicle => {
+        const makeModel = `${vehicle.make} ${vehicle.model}`;
+        const image = vehicleImages[makeModel] || 'default.jpg';
+        container.innerHTML += `
+          <div class="vehicle-card">
+            <img src="/images/${image}" alt="${makeModel}" />
+            <div class="vehicle-details">
+              <h3>${makeModel}</h3>
+              <p><strong>Plate:</strong> ${vehicle.plateNumber}</p>
+              <p><strong>Year:</strong> ${vehicle.year ?? 'N/A'}</p>
+              <p><strong>Status:</strong> <span class="${vehicle.available ? 'available': 'unavailable'}">${vehicle.available? 'Available' : 'Unavailable'}</span></p>
+            </div>
+          </div>
+        `;
+      });
+    })
+    .catch(error => {
+      console.error('Failed to fetch vehicles:', error);
+    });
+</script>
+</body>
+</html>
+
