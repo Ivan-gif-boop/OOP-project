@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    
+    <div class="container">
+        <div class="feedback-card">
+            <div class="header">
+                <h1>SHARE YOUR FEEDBACK</h1>
+                <p>Tell us about your recent car rental experience</p>
+            </div>
+            
+            <form id="feedbackForm">
+                <div class="form-group">
+                    <label>Overall Rating</label>
+                    <div class="star-rating" data-rating="overall">
+                        <span class="star" data-value="1">★</span>
+                        <span class="star" data-value="2">★</span>
+                        <span class="star" data-value="3">★</span>
+                        <span class="star" data-value="4">★</span>
+                        <span class="star" data-value="5">★</span>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Unknown">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="unknown.human@example.com">
+                </div>
+                
+                <div class="form-group">
+                    <label>What aspects of our service would you like to rate?</label>
+                    <div class="rating-grid">
+                        <div class="rating-item">
+                            <h4>Car Quality</h4>
+                            <div class="star-rating" data-rating="car-quality">
+                                <span class="star" data-value="1">★</span>
+                                <span class="star" data-value="2">★</span>
+                                <span class="star" data-value="3">★</span>
+                                <span class="star" data-value="4">★</span>
+                                <span class="star" data-value="5">★</span>
+                            </div>
+                        </div>
+                        
+                        <div class="rating-item">
+                            <h4>Cleanliness</h4>
+                            <div class="star-rating" data-rating="cleanliness">
+                                <span class="star" data-value="1">★</span>
+                                <span class="star" data-value="2">★</span>
+                                <span class="star" data-value="3">★</span>
+                                <span class="star" data-value="4">★</span>
+                                <span class="star" data-value="5">★</span>
+                            </div>
+                        </div>
+                        
+                        <div class="rating-item">
+                            <h4>Customer Service</h4>
+                            <div class="star-rating" data-rating="customer-service">
+                                <span class="star" data-value="1">★</span>
+                                <span class="star" data-value="2">★</span>
+                                <span class="star" data-value="3">★</span>
+                                <span class="star" data-value="4">★</span>
+                                <span class="star" data-value="5">★</span>
+                            </div>
+                        </div>
+                        
+                        <div class="rating-item">
+                            <h4>Value for Money</h4>
+                            <div class="star-rating" data-rating="value-money">
+                                <span class="star" data-value="1">★</span>
+                                <span class="star" data-value="2">★</span>
+                                <span class="star" data-value="3">★</span>
+                                <span class="star" data-value="4">★</span>
+                                <span class="star" data-value="5">★</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="experience">Tell us about your experience</label>
+                    <textarea id="experience" name="experience" placeholder="Share your thoughts about our service, the car, and your overall experience..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label>Would you recommend our service to others?</label>
+                    <div class="radio-group">
+                        <div class="radio-option">
+                            <input type="radio" id="recommend-yes" name="recommend" value="yes">
+                            <label for="recommend-yes">Yes</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="recommend-no" name="recommend" value="no">
+                            <label for="recommend-no">No</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="recommend-maybe" name="recommend" value="maybe">
+                            <label for="recommend-maybe">Maybe</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="improvements">How can we improve our service?</label>
+                    <textarea id="improvements" name="improvements" placeholder="Any suggestions for improvement..."></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Submit Feedback</button>
+            </form>
+        </div>
+    </div>
+    <script src="feedback.js"></script>
+</body>
+</html>
